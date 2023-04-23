@@ -1,0 +1,6 @@
+Dar get em http://localhost:5204/api/usuarios/
+Nesse caso a porta é 5204 e pode mudar
+
+Para saber usuário e senha e testar o crud, pois é uma atividade de testes. Lembrar de usar o token depois que for feito o post de usuário e senha na autenticação
+
+
