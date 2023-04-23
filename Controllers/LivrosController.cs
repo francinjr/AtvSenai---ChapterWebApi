@@ -29,7 +29,7 @@ namespace Chapter.WebApi.Controllers
             do servidor?
             */
             Livro livro = _livroRepository.BuscaPorId(id);
-            if(livro == null)
+            if (livro == null)
             {
                 return NotFound();
             }
@@ -37,7 +37,7 @@ namespace Chapter.WebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        
+
         public IActionResult Atualizar(int id, Livro livro)
         {
             _livroRepository.Atualizar(id, livro);
@@ -54,8 +54,15 @@ namespace Chapter.WebApi.Controllers
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
-            _livroRepository.Deletar(id);
-            return StatusCode(204);
+            try
+            {
+                _livroRepository.Deletar(id);
+                return StatusCode(204);
+            }
+            catch (System.Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }

@@ -130,3 +130,4 @@ C:\Users\franc\OneDrive\Área de Trabalho\DesenvolvimentoDeAPIs\Chapter.WebApi\o
 C:\Users\franc\OneDrive\Área de Trabalho\DesenvolvimentoDeAPIs\Chapter.WebApi\obj\Debug\net6.0\Chapter.WebApi.pdb
 C:\Users\franc\OneDrive\Área de Trabalho\DesenvolvimentoDeAPIs\Chapter.WebApi\obj\Debug\net6.0\Chapter.WebApi.genruntimeconfig.cache
 C:\Users\franc\OneDrive\Área de Trabalho\DesenvolvimentoDeAPIs\Chapter.WebApi\obj\Debug\net6.0\ref\Chapter.WebApi.dll
+C:\Users\franc\OneDrive\Área de Trabalho\DesenvolvimentoDeAPIs\Chapter.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
